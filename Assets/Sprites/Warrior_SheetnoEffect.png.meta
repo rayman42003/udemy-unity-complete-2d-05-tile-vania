@@ -22,28 +22,28 @@ TextureImporter:
     second: Warrior_Idle_6
   - first:
       213: -589479829849459968
-    second: Warrior_SheetnoEffect_6
+    second: Warrior_Run_1
   - first:
       213: -2225303593433192470
-    second: Warrior_SheetnoEffect_7
+    second: Warrior_Run_2
   - first:
       213: 711731054339644605
-    second: Warrior_SheetnoEffect_8
+    second: Warrior_Run_3
   - first:
       213: 8827041205860659437
-    second: Warrior_SheetnoEffect_9
+    second: Warrior_Run_4
   - first:
       213: -4531196692211296701
-    second: Warrior_SheetnoEffect_10
+    second: Warrior_Run_5
   - first:
       213: -1002207024202496282
-    second: Warrior_SheetnoEffect_11
+    second: Warrior_Run_6
   - first:
       213: -3633421932862571679
-    second: Warrior_SheetnoEffect_12
+    second: Warrior_Run_7
   - first:
       213: -7809123221476925388
-    second: Warrior_SheetnoEffect_13
+    second: Warrior_Run_8
   - first:
       213: -7826861071389423882
     second: Warrior_SheetnoEffect_14
@@ -211,25 +211,25 @@ TextureImporter:
     second: Warrior_SheetnoEffect_68
   - first:
       213: 7796489720157118539
-    second: Warrior_SheetnoEffect_69
+    second: Warrior_Dash_1
   - first:
       213: 4151046763693669347
-    second: Warrior_SheetnoEffect_70
+    second: Warrior_Dash_2
   - first:
       213: -4162129941589120387
-    second: Warrior_SheetnoEffect_71
+    second: Warrior_Dash_3
   - first:
       213: 3032867974267129088
-    second: Warrior_SheetnoEffect_72
+    second: Warrior_Dash_4
   - first:
       213: -1829377064002598094
-    second: Warrior_SheetnoEffect_73
+    second: Warrior_Dash_5
   - first:
       213: -956870321305392998
-    second: Warrior_SheetnoEffect_74
+    second: Warrior_Dash_6
   - first:
       213: -4280123317493518697
-    second: Warrior_SheetnoEffect_75
+    second: Warrior_Dash_7
   - first:
       213: 638301610157169233
     second: Warrior_SheetnoEffect_76
@@ -277,28 +277,28 @@ TextureImporter:
     second: Warrior_SheetnoEffect_90
   - first:
       213: -2968783049134217904
-    second: Warrior_SheetnoEffect_91
+    second: Warrior_Climb_1
   - first:
       213: 703853497055010165
-    second: Warrior_SheetnoEffect_92
+    second: Warrior_Climb_2
   - first:
       213: 4362404520178182635
-    second: Warrior_SheetnoEffect_93
+    second: Warrior_Climb_3
   - first:
       213: 4674258658674478611
-    second: Warrior_SheetnoEffect_94
+    second: Warrior_Climb_4
   - first:
       213: -513994488956476597
-    second: Warrior_SheetnoEffect_95
+    second: Warrior_Climb_5
   - first:
       213: -6076401008233008812
-    second: Warrior_SheetnoEffect_96
+    second: Warrior_Climb_6
   - first:
       213: -3900595950621344200
-    second: Warrior_SheetnoEffect_97
+    second: Warrior_Climb_7
   - first:
       213: 626327368723908316
-    second: Warrior_SheetnoEffect_98
+    second: Warrior_Climb_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -526,7 +526,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_6
+      name: Warrior_Run_1
       rect:
         serializedVersion: 2
         x: 0
@@ -547,7 +547,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_7
+      name: Warrior_Run_2
       rect:
         serializedVersion: 2
         x: 69
@@ -568,7 +568,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_8
+      name: Warrior_Run_3
       rect:
         serializedVersion: 2
         x: 138
@@ -589,7 +589,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_9
+      name: Warrior_Run_4
       rect:
         serializedVersion: 2
         x: 207
@@ -610,7 +610,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_10
+      name: Warrior_Run_5
       rect:
         serializedVersion: 2
         x: 276
@@ -631,7 +631,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_11
+      name: Warrior_Run_6
       rect:
         serializedVersion: 2
         x: 345
@@ -652,7 +652,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_12
+      name: Warrior_Run_7
       rect:
         serializedVersion: 2
         x: 0
@@ -673,7 +673,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_13
+      name: Warrior_Run_8
       rect:
         serializedVersion: 2
         x: 69
@@ -1849,7 +1849,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_69
+      name: Warrior_Dash_1
       rect:
         serializedVersion: 2
         x: 207
@@ -1870,7 +1870,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_70
+      name: Warrior_Dash_2
       rect:
         serializedVersion: 2
         x: 276
@@ -1891,7 +1891,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_71
+      name: Warrior_Dash_3
       rect:
         serializedVersion: 2
         x: 345
@@ -1912,7 +1912,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_72
+      name: Warrior_Dash_4
       rect:
         serializedVersion: 2
         x: 0
@@ -1933,7 +1933,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_73
+      name: Warrior_Dash_5
       rect:
         serializedVersion: 2
         x: 69
@@ -1954,7 +1954,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_74
+      name: Warrior_Dash_6
       rect:
         serializedVersion: 2
         x: 138
@@ -1975,7 +1975,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_75
+      name: Warrior_Dash_7
       rect:
         serializedVersion: 2
         x: 207
@@ -2311,7 +2311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_91
+      name: Warrior_Climb_1
       rect:
         serializedVersion: 2
         x: 69
@@ -2332,7 +2332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_92
+      name: Warrior_Climb_2
       rect:
         serializedVersion: 2
         x: 138
@@ -2353,7 +2353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_93
+      name: Warrior_Climb_3
       rect:
         serializedVersion: 2
         x: 207
@@ -2374,7 +2374,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_94
+      name: Warrior_Climb_4
       rect:
         serializedVersion: 2
         x: 276
@@ -2395,7 +2395,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_95
+      name: Warrior_Climb_5
       rect:
         serializedVersion: 2
         x: 345
@@ -2416,7 +2416,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_96
+      name: Warrior_Climb_6
       rect:
         serializedVersion: 2
         x: 0
@@ -2437,7 +2437,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_97
+      name: Warrior_Climb_7
       rect:
         serializedVersion: 2
         x: 69
@@ -2458,7 +2458,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_SheetnoEffect_98
+      name: Warrior_Climb_8
       rect:
         serializedVersion: 2
         x: 138
