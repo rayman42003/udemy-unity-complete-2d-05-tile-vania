@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Flippable : MonoBehaviour
 {
+    private static readonly float FLIP_EPSILON = 0.0001f;
     private Rigidbody2D _rigidbody;
     private SpriteRenderer spriteRenderer;
 
@@ -12,8 +13,7 @@ public class Flippable : MonoBehaviour
 
     private void Update() {
         float xVelocity = _rigidbody.velocity.x;
-        if (Mathf.Abs(xVelocity) > Mathf.Epsilon) {
-            //transform.localScale = new Vector2(Mathf.Sign(xVelocity), 1f);
+        if (Mathf.Abs(xVelocity) > FLIP_EPSILON) {
             spriteRenderer.flipX = xVelocity < 0;
         }
     }
