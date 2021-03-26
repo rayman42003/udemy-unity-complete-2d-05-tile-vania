@@ -18,7 +18,6 @@ public class Movable : MonoBehaviour
     }
 
     public void setMoveSpeed(InputAction.CallbackContext ctx) {
-        Debug.Log($"called: {ctx.ReadValue<Vector2>().ToString()}");
         currXSpeed = ctx.ReadValue<Vector2>().x;
     }
 }

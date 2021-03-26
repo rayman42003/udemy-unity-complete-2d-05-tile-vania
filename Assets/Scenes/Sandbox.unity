@@ -1761,6 +1761,7 @@ GameObject:
   - component: {fileID: 1653271541}
   - component: {fileID: 1653271540}
   - component: {fileID: 1653271544}
+  - component: {fileID: 1653271548}
   - component: {fileID: 1653271543}
   - component: {fileID: 1653271545}
   - component: {fileID: 1653271546}
@@ -1920,9 +1921,9 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1653271546}
-        m_TargetAssemblyTypeName: Movable, Assembly-CSharp
-        m_MethodName: setMoveSpeed
+      - m_Target: {fileID: 1653271548}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: checkRun
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1962,6 +1963,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a1c3d91279c1647bf7e87c88552a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1653271548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653271539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd8686dedd7ba3469ee2eeea20b131e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1899025120
