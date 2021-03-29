@@ -11,9 +11,11 @@ public class Movable : MonoBehaviour
 
     private float currXSpeed = 0f;
     private Rigidbody2D _rigidbody;
+    private Collider2D _collider;
 
     private void Start() {
         _rigidbody = GetComponent<Rigidbody2D>();
+        _collider = GetComponent<Collider2D>();
     }
 
     private void Update() {
@@ -25,9 +27,14 @@ public class Movable : MonoBehaviour
     }
 
     public void jump(InputAction.CallbackContext ctx) {
-        if (ctx.started) {
+        if (ctx.started && isTouchingGround()) {
             Vector2 verticalSpeed = new Vector2(0f, jumpSpeed);
             _rigidbody.velocity += verticalSpeed;
         }
+    }
+
+    private bool isTouchingGround() {
+        int groundLayer = LayerMask.GetMask("Ground");
+        return _collider.IsTouchingLayers(groundLayer);
     }
 }
